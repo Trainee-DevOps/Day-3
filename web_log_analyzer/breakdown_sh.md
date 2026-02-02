@@ -1,0 +1,26 @@
+# Web Server Log Analyzer (Day 3 Project)
+
+## Overview
+
+The **Web Server Log Analyzer** is a Bash-based tool designed to analyze web server access logs (Nginx or Apache).  
+It helps identify traffic patterns, errors, suspicious activities, and potential DDoS attacks.
+
+The script supports:
+- Log analysis (static)
+- Real-time log monitoring
+- HTML and JSON report generation
+
+This project demonstrates practical Linux, Bash scripting, and DevOps monitoring skills.
+
+---
+
+## Project Structure
+
+```text
+web_log_analyzer/
+├── log_analyzer.sh
+├── sample_logs/
+│   └── access.log
+└── output/
+    ├── log_report.html
+    └── log_data.json
