@@ -49,4 +49,30 @@ The goal is to help understand what each part of the script does and why it is u
 >>```
 
 >> In this case:
->> **`LOG_FILE = sample_logs/access.log`**
+>> * `LOG_FILE = sample_logs/access.log`
+
+>> ```bash
+>> OUT_DIR="./output"
+>> HTML_REPORT="$OUT_DIR/log_report.html"
+>> JSON_REPORT="$OUT_DIR/log_data.json"
+>>```
+>>**Defines:**
+>> * The directory where reports will be stored
+>> * The HTML report file
+>> * The JSON report file
+
+>> ```bash
+>> mkdir -p "$OUT_DIR"
+>> ```
+>> * Creates the output directory if it does not already exist.
+>> * This prevents errors when writing report files.
+
+> ### 2. Usage Function
+>> ```bash
+>> usage() {
+    echo "Usage:"
+    echo "  $0 analyze sample_logs/access.log"
+    echo "  $0 monitor sample_logs/access.log"
+    exit 1
+}
+>> ```
