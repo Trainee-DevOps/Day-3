@@ -51,3 +51,4 @@ Example:
 In this case:
 
 LOG_FILE = sample_logs/access.log
+```
