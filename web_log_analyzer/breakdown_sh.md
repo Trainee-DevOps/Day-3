@@ -34,7 +34,7 @@ The goal is to help understand what each part of the script does and why it is u
 
 ## 1. Shebang
 
-```bash
+```text
 #!/bin/bash
 
 1. Variable Definitions
