@@ -37,7 +37,7 @@ The goal is to help understand what each part of the script does and why it is u
 ```bash
 #!/bin/bash
 ```
-### 1. Variable Definitions
+>>> ### 1. Variable Definitions
 ```bash
 LOG_FILE="$2"
 ```
@@ -49,4 +49,4 @@ LOG_FILE="$2"
 ```
 
 >> In this case:
-`>>> **LOG_FILE = sample_logs/access.log**`
+**LOG_FILE = sample_logs/access.log**
