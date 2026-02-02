@@ -39,7 +39,7 @@ The goal is to help understand what each part of the script does and why it is u
 
 1. Variable Definitions
 
-> LOG_FILE="$2"
+`LOG_FILE="$2"`
 
 * Stores the log file path provided as the second command-line argument.
 
