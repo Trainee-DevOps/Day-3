@@ -43,12 +43,10 @@ LOG_FILE="$2"
 ```
 * Stores the log file path provided as the second command-line argument.
 
-Example:
-
+**Example:**
+```bash
 ./log_analyzer.sh analyze sample_logs/access.log
-
-
-In this case:
-
-LOG_FILE = sample_logs/access.log
 ```
+
+>> In this case:
+`>>> **LOG_FILE = sample_logs/access.log**`
