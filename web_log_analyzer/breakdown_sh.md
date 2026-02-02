@@ -49,4 +49,4 @@ The goal is to help understand what each part of the script does and why it is u
 >>>```
 
 >>> In this case:
-**LOG_FILE = sample_logs/access.log**
+>>> `LOG_FILE = sample_logs/access.log`
