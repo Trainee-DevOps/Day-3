@@ -37,16 +37,16 @@ The goal is to help understand what each part of the script does and why it is u
 ```bash
 #!/bin/bash
 ```
->>> ### 1. Variable Definitions
-```bash
-LOG_FILE="$2"
-```
-* Stores the log file path provided as the second command-line argument.
+>> ### 1. Variable Definitions
+>>>```bash
+>>>LOG_FILE="$2"
+>>>```
+>>>* Stores the log file path provided as the second command-line argument.
 
-**Example:**
-```bash
-./log_analyzer.sh analyze sample_logs/access.log
-```
+>>>**Example:**
+>>>```bash
+>>>./log_analyzer.sh analyze sample_logs/access.log
+>>>```
 
->> In this case:
+>>> In this case:
 **LOG_FILE = sample_logs/access.log**
