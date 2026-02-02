@@ -24,10 +24,12 @@ web_log_analyzer/
 └── output/
     ├── log_report.html
     └── log_data.json
+```
 
-Variable Definitions
+1. Variable Definitions
+```base
 LOG_FILE="$2"
-
+```
 
 Stores the log file path provided as the second command-line argument.
 
