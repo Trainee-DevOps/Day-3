@@ -37,6 +37,7 @@ The goal is to help understand what each part of the script does and why it is u
 ```bash
 #!/bin/bash
 ```
+### 1. Variable Definitions
 ```bash
 LOG_FILE="$2"
 ```
