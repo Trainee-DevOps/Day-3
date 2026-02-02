@@ -24,3 +24,18 @@ web_log_analyzer/
 └── output/
     ├── log_report.html
     └── log_data.json
+
+Variable Definitions
+LOG_FILE="$2"
+
+
+Stores the log file path provided as the second command-line argument.
+
+Example:
+
+./log_analyzer.sh analyze sample_logs/access.log
+
+
+In this case:
+
+LOG_FILE = sample_logs/access.log
