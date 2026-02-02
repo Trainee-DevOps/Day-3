@@ -25,13 +25,23 @@ web_log_analyzer/
     ├── log_report.html
     └── log_data.json
 ```
+# Script Explanation – log_analyzer.sh
+
+This document explains the `log_analyzer.sh` script in simple and practical terms.
+The goal is to help understand what each part of the script does and why it is used.
+
+---
+
+## 1. Shebang
+
+```bash
+#!/bin/bash
 
 1. Variable Definitions
 ```base
 LOG_FILE="$2"
 ```
-
-Stores the log file path provided as the second command-line argument.
+* Stores the log file path provided as the second command-line argument.
 
 Example:
 
